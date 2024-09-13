@@ -36,3 +36,5 @@ Our purpose is to create a platform that addresses students' mental health needs
 ## What I Learned
 
 This project was a valuable learning experience in developing responsive web pages and applying CSS Flexbox for layout management. Additionally, working with a team helped me enhance my collaboration and problem-solving skills while working towards a meaningful mission of supporting mental health.
+
+https://marthaheredia48.github.io/Mind-Matters/
