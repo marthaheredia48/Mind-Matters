@@ -1,0 +1,305 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #e3e3f2;
+  font-family: Arial, sans-serif;
+
+}
+
+
+/*nav bar style*/
+@keyframes slide-in {
+  0% {transform: translateX(-100%);}
+  100% {transform: translateX(0);}
+}
+
+#menu {
+  animation: slide-in 0.5s forwards;
+}
+
+#menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #d8d8f3;
+  font-size: 20px;
+  height: 40px;
+  place-items: center;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mindy {
+  width: 100px;
+  margin-left: 7px;
+  align-items: center;
+}
+
+
+h1 {
+  margin-top: 30px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.all-images{
+  display: flex;
+  flex-direction: row;
+}
+/*image1 CSS*/
+.image-container1 {
+  position: relative;
+  width: 500px; /* adjust width as per your design */
+  height: 500px; /* adjust height as per your design */
+  overflow: hidden; /* Hide overflowing text */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  align-content: space-between;
+  
+
+}
+
+.image-container1 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease; /* smooth transition on hover */
+  border: 5px solid #555;
+  
+}
+
+.text-overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 450px;
+  height: 500px;
+  background-color: rgb(238, 180, 114, 0.6); /* semi-transparent background */
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* initially hiddden */
+  transition: opacity 0.3s ease; /* hover transition*/
+  padding: 20px; /* Add padding to the text overlay */
+  text-overflow: ellipsis; /* Show ellipsis for overflow */
+  overflow: auto; /* Make the content scrollable */
+}
+
+.image-container1:hover .text-overlay1 {
+  opacity: 1; /* show text overlay on hover */
+}
+
+/*image2 CSS*/
+.image-container2 {
+  position: relative;
+  width: 500px; /* adjust width as per your design */
+  height: 500px; /* adjust height as per your design */
+  overflow: hidden; /* Hide overflowing text */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  align-content: space-between;
+}
+
+.image-container2 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease; /* smooth transition on hover */
+  border: 5px solid #555;
+
+}
+
+.text-overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 450px;
+  height: 500px;
+  background-color: rgb(238, 134, 134, 0.6); /* semi-transparent background */
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* initially hiddden */
+  transition: opacity 0.3s ease; /* hover transition*/
+  padding: 20px; /* Add padding to the text overlay */
+  text-overflow: ellipsis; /* Show ellipsis for overflow */
+  overflow: auto; /* Make the content scrollable */
+}
+
+.image-container2:hover .text-overlay2 {
+  opacity: 1; /* show text overlay on hover */
+}
+
+/*image 3 CSS*/
+.image-container3 {
+  position: relative;
+  width: 500px; /* adjust width as per your design */
+  height: 500px; /* adjust height as per your design */
+  overflow: hidden; /* Hide overflowing text */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  align-content: space-between;
+
+}
+
+.image-container3 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease; /* smooth transition on hover */
+  border: 5px solid #555;
+
+}
+
+.text-overlay3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 450px;
+  height: 500px;
+  background-color: rgb(168, 142, 199, 0.6); /* semi-transparent background */
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* initially hiddden */
+  transition: opacity 0.3s ease; /* hover transition*/
+  padding: 20px; /* Add padding to the text overlay */
+  text-overflow: ellipsis; /* Show ellipsis for overflow */
+  overflow: auto; /* Make the content scrollable */
+}
+
+.image-container3:hover .text-overlay3 {
+  opacity: 1; /* show text overlay on hover */
+}
+
+/*image 4 CSS*/
+.image-container4 {
+  position: relative;
+  width: 500px; /* adjust width as per your design */
+  height: 500px; /* adjust height as per your design */
+  overflow: hidden; /* Hide overflowing text */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  align-content: space-between;
+}
+
+.image-container4 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease; /* smooth transition on hover */
+  border: 5px solid #555;
+
+}
+
+.text-overlay4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 450px;
+  height: 500px;
+  background-color: rgb(157, 199, 225, 0.6); /* semi-transparent background */
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* initially hiddden */
+  transition: opacity 0.3s ease; /* hover transition*/
+  padding: 20px; /* Add padding to the text overlay */
+  text-overflow: ellipsis; /* Show ellipsis for overflow */
+  overflow: auto; /* Make the content scrollable */
+}
+
+
+.image-container4:hover .text-overlay4 {
+  opacity: 1; /* show text overlay on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .RTimages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+
+}
+
+img {
+  border-radius: 10px;
+  height: 275px;
+  width: 300px;
+  border: 3px solid #ddd;
+  object-fit: cover;
+} */

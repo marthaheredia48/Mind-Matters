@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/*nav bar style*/
+@keyframes slide-in {
+  0% {transform: translateX(-100%);}
+  100% {transform: translateX(0);}
+}
+
+#menu {
+  animation: slide-in 0.5s forwards;
+}
+
+#menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #889986; 
+  font-size: 20px;
+  height: 40px;
+  place-items: center;
+}
+
+body {
+  background-color: #C1D8BF;
+}
+
+h1{
+  color: #4A5043;
+}
+
+.hotlineDiv {
+  display: flex;
+  align-items: flex-start;
+  max-width: 800px;
+  padding: 0 10px;
+  color: #4A5043;
+}
+
+.servicesDiv {
+  display: grid;
+  justify-content: left;
+}
+
+.servicesRow {
+  padding: 10px;
+  width: 200px;
+  border: none;
+  text-align: center;
+  display: flex;
+}
+
+.servicesRow a {
+  text-decoration: none;
+  display: block;
+}
+
+.hotlineDescriptions {
+  margin: 0;
+  padding: 10px 20px;
+  flex: 1;
+  margin-left: 20px;
+}

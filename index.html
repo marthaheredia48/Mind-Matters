@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mind Matters</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Mind Matters</h1>
+
+  <!--navigation bar-->
+  <nav id="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="studyMethods.html">Study Methods</a></li>
+      <li><a href="spotifyPlaylists.html">Spotify Playlists</a></li>
+      <li><a href="mindGames.html">Mind Games</a></li>
+      <li><a href="relaxationTechniques.html">Relaxation Techniques</a></li>
+      <li><a href="professionalContacts.html">Professional Contacts</a></li>
+    </ul>
+  </nav>
+
+  <div class="body">
+    <div class="header">
+      <h2>Welcome to Mind Matters! Feeling stressed out, anxious, or overwhelmed with work, school, or outside life? We are here to help :) </h2>
+      <div class="images">
+        <img src="mindy_images/blue1.png" alt="Mind Matters Image" width="200" height="200">
+        <script>
+          const images = [
+            "mindy_images/blue1.png",
+            "mindy_images/blue2.png",
+            "mindy_images/blue 3.png",
+            "mindy_images/blue4.png",
+          ];
+          let currentImageIndex = 0;
+
+          function changeImage() {
+            const image = document.querySelector("img");
+            image.src = images[currentImageIndex];
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+          }
+
+          setInterval(changeImage, 2500);
+        </script>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <h1>Mission</h1>  
+        <p>At Mind Matters, our mission is to empower students to manage their mental health and develop strong, positive habits. We are dedicated to providing resources that ensure students are safe, happy, and healthy, fostering a supportive environment where mental well-being is prioritized. Our passion lies in helping every student achieve a balanced and fulfilling life, equipping them with the tools they need to thrive both academically and personally.</p>
+      </div>
+
+      <div class="section">
+        <h1>Purpose</h1>
+        <p>Our purpose at Mind Matters is to create a supportive platform that addresses the mental health needs of students. We aim to equip them with the knowledge and tools necessary to build resilient habits, cope with challenges, and maintain a healthy, balanced lifestyle. By focusing on mental well-being, we strive to make a positive impact on students' lives, helping them to succeed academically and grow personally in a nurturing and safe environment.</p>
+      </div>
+
+      <div class="team">
+        <h2>Meet our team!</h2>
+        <div class="team-grid">
+          <div class="member">
+            <div class="name">Rita Lin</div>
+            <div class="description">Rita is a rising college freshman studying applied math!</div>
+          </div>
+          <div class="member">
+            <div class="name">Minerva Guarayo</div>
+            <div class="description">Minerva is a rising high school senior with a concentration in physics and math</div>
+          </div>
+          <div class="member">
+            <div class="name">Sindhuja Kanamarlapudi</div>
+            <div class="description">Sindhuja is a rising college freshman studying computer science and economics.</div>
+          </div>
+          <div class="member">
+            <div class="name">Martha Heredia</div>
+            <div class="description">Martha is a rising college freshman studying computer science!</div>
+          </div>
+          <div class="member">
+            <div class="name">Maite Murdoch</div>
+            <div class="description">Maite is a senior passionate about robotics, coding, and playing the piano.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

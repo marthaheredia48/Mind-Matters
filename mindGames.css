@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/*nav bar style*/
+@keyframes slide-in {
+  0% {transform: translateX(-100%);}
+  100% {transform: translateX(0);}
+}
+
+#menu {
+  animation: slide-in 0.5s forwards;
+}
+
+#menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #acd7e5;
+  font-size: 20px;
+  height: 40px;
+  padding: 10px;
+ place-items: center;
+
+}
+
+
+
+body{
+  text-align: center;
+  background-color:#C1D8BF ;
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+}
+.buttonsDiv{
+  display: flex;
+justify-content: space-evenly;
+background-color: #acd7e5;
+height: 40px;
+padding: 10px;
+}
+.buttonsRow{
+  padding: 10px;
+  border-radius: 10px;
+  color: #70939C;
+background-color:#e8f4f8 ;
+}
+
+.MindGames{
+  display: flex;
+  align-items:flex-start;
+  margin: 10px 0;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+.LinksDiv{
+  display: grid;
+  justify-content: left;
+}
+.LinksRow{
+  padding: 30px;
+  width: 200px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 10px 20px 30px 20px;
+  border-color:#acd7e5 ;
+  background-color: #acd7e5;
+
+}
